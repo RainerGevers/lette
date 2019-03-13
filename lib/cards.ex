@@ -14,5 +14,6 @@ defmodule Cards do
   """
   def hello do
     :world
+    # "hi there!"
   end
 end
