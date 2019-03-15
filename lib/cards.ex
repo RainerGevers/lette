@@ -45,7 +45,6 @@ defmodule Cards do
     end
   end
 
-
   def create_hand(hand_size) do
     Cards.create_deck
     |> Cards.shuffle
