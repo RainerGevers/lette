@@ -13,7 +13,8 @@ defmodule Cards do
 
   """
   def create_deck do
-    ["Ace", "Two", "Three", "Four", "Five"]
+    values = ["Ace", "Two", "Three", "Four", "Five"]
+    suits = ["Spades", "Clubs", "Hearts", "Diamonds"]
   end
 
   def shuffle(deck) do
